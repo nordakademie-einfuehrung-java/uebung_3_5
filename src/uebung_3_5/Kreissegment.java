@@ -19,9 +19,9 @@ public class Kreissegment {
 		double hoehe = radius - (radius * Math.cos(radianthalbe));
 		double breite = 2 * Math.sqrt((radius * radius) - ((radius-hoehe)*(radius-hoehe)));
 		
-		System.out.println("Ein Kreissegment mit dem Radius r = " + radius + "cm und dem Winkel alpha = " + alpha + "° hat folgende Masse:");
+		System.out.println("Ein Kreissegment mit dem Radius r = " + radius + "cm und dem Winkel alpha = " + alpha + "° hat folgende Maße:");
 		System.out.println("Umfang = " + f.format(umfang) + "cm");
-		System.out.println("Fläche = " + f.format(flaeche) + "cm*cm");
+		System.out.println("Fläche = " + f.format(flaeche) + "cm^2");
 		System.out.println("Höhe = " + f.format(hoehe) + "cm");
 		System.out.println("Breite = " + f.format(breite) + "cm");
 	}
