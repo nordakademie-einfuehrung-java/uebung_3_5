@@ -14,10 +14,10 @@ public class Kreissegment {
 		double bogenmas = r * pi * a/180;
 		double breite = 2 * Math.sqrt((r*r)-((r-hoehe)*(r-hoehe)));
 		
-		System.out.println("Der Flächeninhalt beträgt " + inhalt + " cm^2.");
-		System.out.println("Die Höhe beträgt " + hoehe + " cm.");
-		System.out.println("Das Bogenmaß beträgt " + bogenmas + " cm.");
-		System.out.println("Die Breite beträgt " + breite + " cm.");
+		System.out.println("Der FlÃ¤cheninhalt betrÃ¤gt " + inhalt + " cm^2.");
+		System.out.println("Die HÃ¶he betrÃ¤gt " + hoehe + " cm.");
+		System.out.println("Das BogenmaÃŸ betrÃ¤gt " + bogenmas + " cm.");
+		System.out.println("Die Breite betrÃ¤gt " + breite + " cm.");
 		
 	}
 
